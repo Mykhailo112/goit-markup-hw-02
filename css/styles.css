@@ -46,10 +46,10 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-title-item :hover {
+.header-title:hover {
   color: #404bbf;
 }
-.header-title-item :focus {
+.header-title:focus {
   color: #404bbf;
 }
 .contact-list {
