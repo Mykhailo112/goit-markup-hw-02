@@ -1,16 +1,19 @@
 body {
-  font-family:"Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   background-color: #ffffff;
   color: #434455;
 }
 /* ----------Header-------- */
-.logo {
-  font-family: "Raleway";
+.link {
+  list-style: none;
+}
+.logo-span {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -18,10 +21,10 @@ body {
   color: #4d5ae5;
 }
 .logo-span-header {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -154,7 +157,7 @@ body {
   color: #e7e9fc;
 }
 .logo-span-footer {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17x;
