@@ -16,6 +16,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #4d5ae5;
 }
 .logo-span-header {
@@ -28,6 +29,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+}
+.list{
+list-style: none;
 }
 .header-title {
   font-weight: 500;
