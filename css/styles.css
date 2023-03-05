@@ -30,7 +30,7 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.nav-list {
+.list {
   list-style: none;
 }
 .header-list {
@@ -43,7 +43,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.contact-list {
+.header-list-item:active .contact-list {
   font-style: normal;
 }
 .contact-item {
