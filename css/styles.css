@@ -30,8 +30,8 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.list{
-list-style: none;
+.list {
+  list-style: none;
 }
 .header-title {
   font-weight: 500;
@@ -57,11 +57,6 @@ list-style: none;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.title-btn {
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
 .title-btn-text {
   font-weight: 500;
   font-size: 16px;
@@ -70,6 +65,7 @@ list-style: none;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
 /* ----------Sector 2 index.html--------- */
 .plan-item {
