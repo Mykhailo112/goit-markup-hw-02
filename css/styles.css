@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
   background-color: #ffffff;
   color: #434455;
 }
@@ -12,8 +11,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -23,14 +20,6 @@ body {
   text-decoration: none;
 }
 .logo-span-header {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 .list {
@@ -84,11 +73,16 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  background-color: #4d5ae5;
+}
+.title-btn:hover {
+  color: #404bbf;
+}
+.title-btn:focus {
+  color: #404bbf;
 }
 /* ----------Sector 2 index.html--------- */
 .plan-item {
@@ -116,6 +110,9 @@ body {
 /* ----------Sector 4 index.html--------- */
 .team {
   background-color: #f4f4fd;
+}
+.team-list {
+  background-color: #ffffff;
 }
 .team-heading {
   font-weight: 700;
@@ -149,11 +146,17 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+}
+.filters-btn:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.filters-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .examples-title {
   font-weight: 500;
@@ -179,13 +182,5 @@ body {
   color: #e7e9fc;
 }
 .logo-span-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17x;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
