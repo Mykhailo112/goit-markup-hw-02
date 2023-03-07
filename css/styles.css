@@ -1,8 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  background-color: #ffffff;
-  color: #434455;
+  background-color: var(--color5);
+  color: var(--color3);
+}
+:root {
+  --color1: #4d5ae5;
+  --color2: #2e2f42;
+  --color3: #434455;
+  --color4: #404bbf;
+  --color5: #ffffff;
+  --color6: #f4f4fd;
+  --color7: #e7e9fc;
 }
 /* ----------Header-------- */
 .logo-link {
@@ -14,13 +23,13 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #4d5ae5;
+  color: var(--color1);
 }
 .link {
   text-decoration: none;
 }
 .logo-span-header {
-  color: #2e2f42;
+  color: var(--color2);
 }
 .list {
   list-style: none;
@@ -33,13 +42,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color2);
 }
 .header-title-item:hover {
-  color: #404bbf;
+  color: var(--color4);
 }
 .header-title-item:focus {
-  color: #404bbf;
+  color: var(--color4);
 }
 .contact-list {
   font-style: normal;
@@ -48,17 +57,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color3);
 }
 .contact-item-list :hover {
-  color: #404bbf;
+  color: var(--color4);
 }
 .contact-item-list :focus {
-  color: #404bbf;
+  color: var(--color4);
 }
 /* ----------Sector 1 index.html--------- */
 .title {
-  background: #2e2f42;
+  background: var(--color2);
 }
 .title-text {
   font-weight: 700;
@@ -66,7 +75,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color5);
 }
 .title-btn {
   font-family: "Roboto", sans-serif;
@@ -74,15 +83,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--color5);
   cursor: pointer;
-  background-color: #4d5ae5;
+  background-color: var(--color1);
 }
 .title-btn:hover {
-  color: #404bbf;
+  color: var(--color5);
+  background-color: var(--color4);
 }
 .title-btn:focus {
-  color: #404bbf;
+  color: var(--color5);
+  background-color: var(--color4);
 }
 /* ----------Sector 2 index.html--------- */
 .plan-item {
@@ -90,7 +101,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color2);
 }
 .plan-text {
   font-size: 16px;
@@ -105,14 +116,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color2);
 }
 /* ----------Sector 4 index.html--------- */
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--color6);
 }
 .team-list {
-  background-color: #ffffff;
+  background-color: var(--color5);
 }
 .team-heading {
   font-weight: 700;
@@ -121,7 +132,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color2);
 }
 .team-title {
   font-weight: 500;
@@ -129,7 +140,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color2);
 }
 .team-text {
   font-size: 16px;
@@ -148,39 +159,39 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--color1);
 }
 .filters-btn:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--color5);
+  background-color: var(--color4);
 }
 .filters-btn:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--color5);
+  background-color: var(--color4);
 }
 .examples-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color2);
 }
 .examples-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color3);
 }
 /* ---------Footer--------- */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--color2);
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--color7);
 }
 .logo-span-footer {
-  color: #f4f4fd;
+  color: var(--color6);
 }
