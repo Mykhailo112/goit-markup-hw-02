@@ -13,7 +13,25 @@ body {
   --color6: #f4f4fd;
   --color7: #e7e9fc;
 }
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+.section{
+  padding: 120px 0;
+}
 /* ----------Header-------- */
+.header{
+  border-bottom: 1px solid var(--color7);
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
 .logo-link {
   list-style: none;
   font-family: "Raleway", sans-serif;
@@ -25,6 +43,9 @@ body {
   text-decoration: none;
   color: var(--color1);
 }
+.logo-link {
+  margin-right: 76px;
+}
 .link {
   text-decoration: none;
 }
@@ -33,6 +54,10 @@ body {
 }
 .list {
   list-style: none;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
 }
 .header-list {
   list-style: none;
@@ -50,8 +75,12 @@ body {
 .header-title-item:focus {
   color: var(--color4);
 }
-.contact-list {
+.contact-list-title {
   font-style: normal;
+}
+.contact-list {
+  display: flex;
+  gap: 40px;
 }
 .contact-item {
   font-size: 16px;
@@ -69,6 +98,9 @@ body {
 .title {
   background: var(--color2);
 }
+.title {
+  height: 600px;
+}
 .title-text {
   font-weight: 700;
   font-size: 56px;
@@ -77,7 +109,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--color5);
 }
+.title-text {
+  margin: 0 auto;
+  max-width: 496px;
+  padding-top: 188px;
+}
 .title-btn {
+  width: 169px;
+  height: 56px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -86,6 +125,14 @@ body {
   color: var(--color5);
   cursor: pointer;
   background-color: var(--color1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.title-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
 }
 .title-btn:hover {
   color: var(--color5);
@@ -96,6 +143,12 @@ body {
   background-color: var(--color4);
 }
 /* ----------Sector 2 index.html--------- */
+.plan-list-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 24px;
+}
 .plan-item {
   font-weight: 500;
   font-size: 20px;
@@ -118,12 +171,27 @@ body {
   text-transform: capitalize;
   color: var(--color2);
 }
+.servises-title-list {
+  padding-bottom: 72px;
+  margin: 0 auto;
+}
+.servises-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 24px;
+  padding: 0 0 120px 0;
+}
+
 /* ----------Sector 4 index.html--------- */
 .team {
   background-color: var(--color6);
 }
 .team-list {
   background-color: var(--color5);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-heading {
   font-weight: 700;
@@ -133,6 +201,18 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color2);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+}
+.team-heading {
+  padding-bottom: 72px;
+}
+.team-list-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 24px;
+  padding: 0 0 120px 0;
 }
 .team-title {
   font-weight: 500;
@@ -141,16 +221,34 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color2);
+  margin: 32px 0 8px 0;
 }
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  margin: 8px 0 32px 0;
 }
 /* ----------Sector 1 portfolio.html--------- */
+.filters-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 96px 0 72px 0;
+  margin: 0 auto;
+}
 .filters-btn {
   cursor: pointer;
+  background:  var(--color6);
+  border: 1px solid  var(--color7);
+  border-radius: 4px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  height: 48px;
+  padding: 12px 24px;
 }
 .filters-btn {
   font-family: "Roboto", sans-serif;
@@ -169,28 +267,56 @@ body {
   color: var(--color5);
   background-color: var(--color4);
 }
+.examples-list{
+  border: 1px solid  var(--color7);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.examples-title-list{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+}
 .examples-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color2);
+  margin: 32px 0 8px 16px;
 }
 .examples-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color3);
+  margin: 8px 0 32px 16px;
+}
+.examples-container{
+  padding-bottom: 120px;
 }
 /* ---------Footer--------- */
 .footer {
   background-color: var(--color2);
+}
+.footer {
+  height: 310px;
+}
+.footer-container {
+  padding: 100px 0;
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color7);
+}
+.footer-text {
+  max-width: 264px;
 }
 .logo-span-footer {
   color: var(--color6);
