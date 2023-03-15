@@ -35,14 +35,24 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .section {
   padding: 120px 0;
 }
-/* ----------Header-------- */
-.header {
-  border-bottom: 1px solid var(--color7);
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+/* ----------Header-------- */
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -142,6 +152,7 @@ img {
   background-color: var(--color1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: transparent;
 }
 .title-btn:hover {
   color: var(--color5);
@@ -159,7 +170,7 @@ img {
 /* ----------Sector 2 index.html--------- */
 .plan-list-section {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 24px;
 }
@@ -169,6 +180,9 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color2);
+}
+.plan-item {
+  margin-bottom: 8px;
 }
 .plan-text {
   font-size: 16px;
@@ -185,15 +199,16 @@ img {
   text-transform: capitalize;
   color: var(--color2);
 }
+.servises-title-list {
+  margin-bottom: 72px;
+}
 .servises-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 24px;
 }
-.servises-list-item {
-  margin-top: 72px;
-}
+
 .servises-section {
   padding-top: 0;
 }
@@ -244,11 +259,8 @@ img {
   padding: 32px 16px;
 }
 /* ----------Sector 1 portfolio.html--------- */
-.filters-div {
-  padding: 96px 0 72px 0;
-}
-.examples-div {
-  padding-top: 0;
+.filters-list {
+  margin: 96px 0 72px 0;
 }
 .filters-list {
   display: flex;
@@ -292,6 +304,9 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+}
+.examples-title-list {
+  padding-bottom: 120px;
 }
 .examples-title {
   font-weight: 500;
