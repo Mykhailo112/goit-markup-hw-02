@@ -53,6 +53,9 @@ img {
   overflow: hidden;
 }
 /* ----------Header-------- */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -174,6 +177,9 @@ img {
   justify-content: center;
   gap: 24px;
 }
+.plan-list {
+  flex-basis: 264px;
+}
 .plan-item {
   font-weight: 500;
   font-size: 20px;
@@ -259,8 +265,11 @@ img {
   padding: 32px 16px;
 }
 /* ----------Sector 1 portfolio.html--------- */
+.portfolio-section {
+  padding: 96px 0 120px 0;
+}
 .filters-list {
-  margin: 96px 0 72px 0;
+  margin-bottom: 72px;
 }
 .filters-list {
   display: flex;
@@ -304,9 +313,6 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-}
-.examples-title-list {
-  padding-bottom: 120px;
 }
 .examples-title {
   font-weight: 500;
